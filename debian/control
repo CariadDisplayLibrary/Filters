@@ -1,4 +1,4 @@
-Source: filters
+Source: libdisplaycore-filters
 Section: libraries
 Priority: extra
 Maintainer: Matt Jenkins <matt@majenko.co.uk>
