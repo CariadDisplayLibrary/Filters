@@ -1,0 +1,15 @@
+AdjustHSV.cpp libraries/DisplayCore/Filters
+AdjustHSV.h libraries/DisplayCore/Filters
+Brightness.cpp libraries/DisplayCore/Filters
+Brightness.h libraries/DisplayCore/Filters
+Contrast.cpp libraries/DisplayCore/Filters
+Contrast.h libraries/DisplayCore/Filters
+Filters.h libraries/DisplayCore/Filters
+Invert.cpp libraries/DisplayCore/Filters
+Invert.h libraries/DisplayCore/Filters
+Monochrome.cpp libraries/DisplayCore/Filters
+Monochrome.h libraries/DisplayCore/Filters
+Noise.cpp libraries/DisplayCore/Filters
+Noise.h libraries/DisplayCore/Filters
+Tint.cpp libraries/DisplayCore/Filters
+Tint.h libraries/DisplayCore/Filters
