@@ -1,7 +1,7 @@
 #include <AdjustHSV.h>
 
 color_t AdjustHSV::function(color_t col) {
-    uint32_t hsv = DisplayCore::rgb2hsv(col);
+    uint32_t hsv = Cariad::rgb2hsv(col);
     int h = ((hsv >> 16) & 0xFF);
     int s = ((hsv >> 8) & 0xFF);
     int v = (hsv & 0xFF);
@@ -15,6 +15,6 @@ color_t AdjustHSV::function(color_t col) {
     if (s > 255) s = 255;
     if (v < 0) v = 0;
     if (v > 255) v = 255;
-    col = DisplayCore::hsv2rgb((h << 16) | (s << 8) | v);
+    col = Cariad::hsv2rgb((h << 16) | (s << 8) | v);
     return col;
 }

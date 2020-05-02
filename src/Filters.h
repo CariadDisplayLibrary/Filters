@@ -1,7 +1,7 @@
 #ifndef _FILTERS_H
 #define _FILTERS_H
 
-#include <DisplayCore.h>
+#include <Cariad.h>
 
 #include "AdjustHSV.h"
 #include "Brightness.h"

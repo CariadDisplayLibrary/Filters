@@ -1,18 +1,19 @@
-Source: libdisplaycore-filters
+Source: libcariad-filters
 Section: main
 Priority: extra
 Maintainer: Matt Jenkins <matt@majenko.co.uk>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.4
 
-Package: libdisplaycore-filters
+Package: libcariad-filters
+Replaces: libdisplaycore-filters
 Section: main
 Architecture: all
-XBSC-Group: DisplayCore
+XBSC-Group: Cariad
 XBSC-Subgroup: Filters
-Depends: libdisplaycore-core
+Depends: libcariad-core
 Provides: Filters.h
-Description: DisplayCore Image Filters
+Description: Cariad Image Filters
  A selection of Image Filters
 
 
